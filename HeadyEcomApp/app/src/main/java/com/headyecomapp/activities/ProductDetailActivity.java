@@ -11,13 +11,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.headyecomapp.R;
-
 import com.headyecomapp.adapter.VariantAdapter;
 import com.headyecomapp.constants.AppConstants;
 import com.headyecomapp.model.Product;
 import com.headyecomapp.model.Variant;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ProductDetailActivity extends AppCompatActivity {

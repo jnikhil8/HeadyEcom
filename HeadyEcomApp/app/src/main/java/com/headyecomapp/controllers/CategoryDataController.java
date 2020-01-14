@@ -5,7 +5,6 @@ import android.content.Context;
 import com.headyecomapp.constants.AppConstants;
 import com.headyecomapp.constants.RequestType;
 import com.headyecomapp.interfaces.IDataResponseListener;
-import com.headyecomapp.utils.AppUtils;
 import com.headyecomapp.utils.DownloadUtils;
 
 import org.json.JSONObject;

@@ -1,22 +1,16 @@
 package com.headyecomapp.adapter;
 
 import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.headyecomapp.R;
-import com.headyecomapp.constants.AppConstants;
 import com.headyecomapp.model.Variant;
-
 
 import java.util.List;
 
@@ -48,8 +42,8 @@ public class VariantAdapter extends RecyclerView.Adapter<VariantAdapter.MyViewHo
         holder.mContentView.setTag(model);
         if (model != null) {
 //            holder.productColor.setText(String.valueOf(model.getColor()));
-            holder.productSize.setText(String.valueOf(model.getSize()));
-            holder.productPrice.setText(String.valueOf(model.getPrice()));
+            //       holder.productSize.setText(String.valueOf(model.getSize()));
+            //         holder.productPrice.setText(String.valueOf(model.getPrice()));
         }
     }
 
@@ -64,6 +58,7 @@ public class VariantAdapter extends RecyclerView.Adapter<VariantAdapter.MyViewHo
         TextView productSize;
         TextView productPrice;
         View mContentView;
+
         MyViewHolder(View view) {
             super(view);
             mContentView = view;
